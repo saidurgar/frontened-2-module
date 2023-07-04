@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/solid.min.css" integrity="sha512-yDUXOUWwbHH4ggxueDnC5vJv4tmfySpVdIcN1LksGZi8W8EVZv4uKGrQc0pVf66zS7LDhFJM7Zdeow1sw1/8Jw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body >
+    <div class="container">
+        <div class="head">
+            <span>Student Management CRUD</span>
+        </div>
+        <div class="form">
+            <form action="">
+                <input type="text" placeholder="Name" id="name">
+                <input type="email" placeholder="Email" id="email">
+                <input type="text" placeholder="GPA" id="gpa">
+                <input type="number" placeholder="Age" id="age">
+                <input type="text" placeholder="Degree" id="degree">
+            </form>
+            <div class="add-button">
+                <button type="button" id="addStudent" >Add Student</button>
+            </div>
+            <div class="edit-button">
+                <button type="button" id="editStudent">Edit Student</button>
+            </div>
+        </div>
+        <div class="search">
+            <input type="text" name="" placeholder="Search By Name, email or degree" id="search">
+        </div>
+        <div class="info">
+            <table>
+                <thead>
+                    <td>ID</td>
+                    <td>Student Name</td>
+                    <td>Email</td>
+                    <td>Age</td>
+                    <td>GPA</td>
+                    <td>Degree</td>
+                </thead>
+                <tbody id="tbody">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/solid.min.js" integrity="sha512-apZ8JDL5kA1iqvafDdTymV4FWUlJd8022mh46oEMMd/LokNx9uVAzhHk5gRll+JBE6h0alB2Upd3m+ZDAofbaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+</html>
